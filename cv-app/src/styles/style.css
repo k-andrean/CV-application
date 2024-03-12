@@ -1,0 +1,92 @@
+button {
+    width: 70px;
+    height: 30px;
+
+    background-color: #617d88;
+    border-radius: 8px;
+    color: whitesmoke;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+
+    color: #274664;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+input,
+textarea {
+    font-size: 14px;
+}
+
+input {
+    min-width: 200px;
+    min-height: 30px;
+}
+
+.profile-container,
+.study-container,
+.work-container {
+    min-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.my-form {
+    display: flex;
+
+    padding: 2rem 3rem;
+
+    border-bottom: 2px solid #274664;
+    border-top: 2px solid #274664;
+
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.left-section {
+    min-width: 30%;
+    justify-content: center;
+
+    row-gap: 2rem;
+}
+
+.right-section {
+    min-width: 30%;
+    row-gap: 1rem;
+
+}
+
+.button-container {
+    min-width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work>.my-form>.left-section {
+    justify-content: flex-start;
+}
